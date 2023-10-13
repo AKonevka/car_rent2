@@ -1,0 +1,178 @@
+/* font-family: 'Inter', sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.wrapper {
+    background: url(../img/car.jpg) no-repeat center/cover;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+}
+
+.rent__item {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    margin-bottom: 23px;
+    margin-left: 47px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.rent__moskow-title {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 87px;
+    margin-bottom: 34px;
+
+}
+
+.rent__moskow {
+    margin-right: 70px;
+}
+
+.rent__moskow-subtitle {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+
+.rent__order {
+    margin-top: 157px;
+    background: rgba(71, 117, 36, 0.50);
+    border-radius: 20px;
+    height: 353px;
+    width: 532px;
+}
+
+.choice-category-item {
+    color: white;
+    margin-right: 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.choice-category-title {
+    color: white;
+}
+
+.order__online-title {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 22px 0 18px 25px;
+}
+
+.rent__item::before {
+    content: "";
+    display: block;
+    position: relative;
+    background: url(../img/Ok.png);
+    width: 24px;
+    height: 24px;
+    bottom: -24px;
+    right: 37px;
+}
+
+.order__input {
+    position: relative;
+    width: 222px;
+    height: 35px;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    padding: 8px 14px 9px 14px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.order__input:first-child {
+    margin-left: 24px;
+    margin-right: 40px;
+}
+
+.order__input::after {
+    content: url(../img/Schedule.png);
+}
+
+.choice-category-title {
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 19px;
+}
+
+.choice-category-list {
+    display: flex;
+    width: 419px;
+    height: 55px;
+    flex-wrap: wrap;
+    margin-left: 24px;
+    margin-bottom: 35px;
+}
+
+.choice-category {
+    margin-right: 9px;
+}
+
+
+.all-options {
+    width: 445px;
+    height: 46px;
+    margin-left: 49px;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    background: rgba(71, 117, 36, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+}
